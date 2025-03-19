@@ -1,5 +1,6 @@
 CC=gcc
 CFLAGS=-lpthread
+CFLAGS += -w
 TARGET=server
 SRCS=server.c
 
